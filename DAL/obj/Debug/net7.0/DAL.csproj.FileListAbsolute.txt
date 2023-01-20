@@ -1,0 +1,17 @@
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+F:\exam practices\dotnet practice\testorm\DAL\bin\Debug\net7.0\DAL.deps.json
+F:\exam practices\dotnet practice\testorm\DAL\bin\Debug\net7.0\DAL.dll
+F:\exam practices\dotnet practice\testorm\DAL\bin\Debug\net7.0\DAL.pdb
+F:\exam practices\dotnet practice\testorm\DAL\bin\Debug\net7.0\BOL.dll
+F:\exam practices\dotnet practice\testorm\DAL\bin\Debug\net7.0\BOL.pdb
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\DAL.dll
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\refint\DAL.dll
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\DAL.pdb
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\ref\DAL.dll
+F:\exam practices\dotnet practice\testorm\DAL\bin\Debug\net7.0\DAL.runtimeconfig.json
+F:\exam practices\dotnet practice\testorm\DAL\obj\Debug\net7.0\DAL.genruntimeconfig.cache

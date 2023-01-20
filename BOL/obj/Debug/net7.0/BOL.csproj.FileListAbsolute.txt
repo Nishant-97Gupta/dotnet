@@ -1,0 +1,12 @@
+F:\exam practices\dotnet practice\testorm\BOL\obj\Debug\net7.0\BOL.csproj.AssemblyReference.cache
+F:\exam practices\dotnet practice\testorm\BOL\obj\Debug\net7.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+F:\exam practices\dotnet practice\testorm\BOL\obj\Debug\net7.0\BOL.AssemblyInfoInputs.cache
+F:\exam practices\dotnet practice\testorm\BOL\obj\Debug\net7.0\BOL.AssemblyInfo.cs
+F:\exam practices\dotnet practice\testorm\BOL\obj\Debug\net7.0\BOL.csproj.CoreCompileInputs.cache
+F:\exam practices\dotnet practice\testorm\BOL\bin\Debug\net7.0\BOL.deps.json
+F:\exam practices\dotnet practice\testorm\BOL\bin\Debug\net7.0\BOL.dll
+F:\exam practices\dotnet practice\testorm\BOL\bin\Debug\net7.0\BOL.pdb
+F:\exam practices\dotnet practice\testorm\BOL\obj\Debug\net7.0\BOL.dll
+F:\exam practices\dotnet practice\testorm\BOL\obj\Debug\net7.0\refint\BOL.dll
+F:\exam practices\dotnet practice\testorm\BOL\obj\Debug\net7.0\BOL.pdb
+F:\exam practices\dotnet practice\testorm\BOL\obj\Debug\net7.0\ref\BOL.dll

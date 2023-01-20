@@ -1,0 +1,88 @@
+@using BOL;
+
+@{
+    ViewData["Title"] = "Index page";
+}
+
+<div>
+    <h1>List of products</h1>
+    @{
+
+        List<Product> allproduct = (List<Product>)ViewData["product"];
+
+                //Console.Write(item.pid+" "+item.pname+" "+item.price+" "+item.stock);
+                //Console.Write(item.pname);
+                //Console.Write(item.price);
+                //Console.Write(item.stock);
+                <div>
+                  <table>
+                       <tr>
+                            <th>Pid</th>
+                            <th>ProdName</th>
+                            <th>Price</th>
+                            <th>stock</th>
+                       </tr>
+
+                           @foreach (Product item in allproduct)
+                             {
+                           <tr>
+                               <td>@item.pid</td>
+                              <td>@item.pname </td>
+                               <td>@item.price</td>
+                                 <td>@item.stock</td>
+                            </tr>
+                             }
+                  </table>
+                </div>
+             @using(Html.BeginForm("AddProduct","product"))
+             {
+             <div>
+                <th><b>Insert the products</b></th><br>
+                 <form method="post">
+                     <label for="pid">Pid:</label>
+                    <input type="text" name="pid" id="pid">&nbsp;&nbsp;&nbsp;&nbsp;
+                     <label for="pname">Prodname:</label>
+                    <input type="text" name="pname" id="pname">&nbsp;&nbsp;
+                     <label for="price">Price:</label>
+                    <input type="text" name="price" id="price">&nbsp;&nbsp;
+                       <label for="stock">stock:</label>
+                    <input type="text" name="stock" id="stock">
+                    <label>Submit</label>
+                    <input type="submit" class="submit" value="submit"/>
+                 </form>
+             </div>
+             }  
+             @using(Html.BeginForm("DeleteProduct","product")){
+
+               
+                  <div>
+                    <p><b>Delete the product by ID</b></p>
+                    <form method="post"> 
+                    <label for="pid">PID:</label>
+                    <input type="text" name="pid" id="pid">
+                    <lable>Submit</lable>
+                    <input type="submit" value="submit" class="submit">
+                    </form>
+                  </div>
+                  
+             }
+             @using(Html.BeginForm("Updateproduct","product"))
+             {
+                  
+                    <div>
+                      <p>Update by ID</p>
+                <form method="post">
+                     <label for="pid">Pid:</label>
+                    <input type="text" name="pid" id="pid">&nbsp;&nbsp;&nbsp;&nbsp;
+                     <label for="pname">Prodname:</label>
+                    <input type="text" name="pname" id="pname">&nbsp;&nbsp;&nbsp;&nbsp;
+                     <label for="price">Price:</label>
+                    <input type="text" name="price" id="price">&nbsp;&nbsp;&nbsp;&nbsp;
+                       <label for="stock">stock:</label>
+                    <input type="text" name="stock" id="stock">
+                    <input type="submit" class="submit" value="submit">
+                 </form>
+                 </div>
+             }
+            }
+

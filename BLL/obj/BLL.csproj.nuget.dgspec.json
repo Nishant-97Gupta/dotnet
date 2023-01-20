@@ -1,0 +1,188 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\exam practices\\dotnet practice\\testorm\\BLL\\BLL.csproj": {}
+  },
+  "projects": {
+    "F:\\exam practices\\dotnet practice\\testorm\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\exam practices\\dotnet practice\\testorm\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "F:\\exam practices\\dotnet practice\\testorm\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Nisha\\.nuget\\packages\\",
+        "outputPath": "F:\\exam practices\\dotnet practice\\testorm\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nisha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\exam practices\\dotnet practice\\testorm\\BOL\\BOL.csproj": {
+                "projectPath": "F:\\exam practices\\dotnet practice\\testorm\\BOL\\BOL.csproj"
+              },
+              "F:\\exam practices\\dotnet practice\\testorm\\DAL\\DAL.csproj": {
+                "projectPath": "F:\\exam practices\\dotnet practice\\testorm\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\exam practices\\dotnet practice\\testorm\\BOL\\BOL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\exam practices\\dotnet practice\\testorm\\BOL\\BOL.csproj",
+        "projectName": "BOL",
+        "projectPath": "F:\\exam practices\\dotnet practice\\testorm\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\Nisha\\.nuget\\packages\\",
+        "outputPath": "F:\\exam practices\\dotnet practice\\testorm\\BOL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nisha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\exam practices\\dotnet practice\\testorm\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\exam practices\\dotnet practice\\testorm\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "F:\\exam practices\\dotnet practice\\testorm\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Nisha\\.nuget\\packages\\",
+        "outputPath": "F:\\exam practices\\dotnet practice\\testorm\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nisha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\exam practices\\dotnet practice\\testorm\\BOL\\BOL.csproj": {
+                "projectPath": "F:\\exam practices\\dotnet practice\\testorm\\BOL\\BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
